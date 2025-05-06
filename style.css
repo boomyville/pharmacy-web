@@ -18,6 +18,13 @@ nav .container {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1em;
+  flex-direction: row;
+}
+
+@media (max-width: 600px) {
+  nav .container {
+    flex-direction: column;
+  }
 }
 
 nav .logo {
