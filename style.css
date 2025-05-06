@@ -57,14 +57,14 @@ section {
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
-#construction {
+section#construction {
   display: flex;
   justify-content: center;
   align-items: center;
   /* height: 400px; */
 }
 
-#construction img {
+section#construction img {
   display: block;
   max-width: 100%;
   height: auto;
