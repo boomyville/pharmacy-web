@@ -88,7 +88,7 @@ nav a {
 
 nav a:hover {
   background-color: #FF9E1B;
-  color: #0033A0;
+  color: #1d3d7c;
   text-decoration: none;
 }
 
@@ -149,7 +149,7 @@ footer {
   text-align: center;
   padding: 1em 0;
   background: #D9D9D6;
-  color: #0033A0;
+  color: #1d3d7c;
   margin-top: 2em;
   border-top: 4px solid #FF9E1B;
   box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
