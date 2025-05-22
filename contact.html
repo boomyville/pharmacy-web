@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Beaconsfield Pharmacy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="nav-placeholder"></div>
+  <script>
+    fetch('nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+      });
+  </script>
+  <main>
+    <section>
+      <h2>Contact Details</h2>
+      <p><strong>Address:</strong> Shop 18, 55 Old Princes Highway, Beaconsfield, Victoria, Australia 3807</p>
+      <p><strong>Phone:</strong> 03 9707 5187</p>
+      <p><strong>Email:</strong> info@beaconsfieldpharmacy.com.au</p>
+    </section>
+    <section>
+      <h2>Connect With Us</h2>
+      <ul class="social-links">
+        <li><a href="https://www.facebook.com/beaconsfieldpharmacy/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/beaconsfieldpharmacy/" target="_blank">Instagram</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Beaconsfield Pharmacy - Site by Kevin
+  </footer>
+</body>
+</html> 

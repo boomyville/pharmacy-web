@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us - Beaconsfield Pharmacy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="nav-placeholder"></div>
+  <script>
+    fetch('nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+      });
+  </script>
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p>
+        Beaconsfield Pharmacy has been serving the local community for over 20 years. 
+        Our friendly team is dedicated to providing quality healthcare and advice to all our customers.
+      </p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Beaconsfield Pharmacy - Site by Kevin
+  </footer>
+</body>
+</html> 

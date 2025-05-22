@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services - Beaconsfield Pharmacy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="nav-placeholder"></div>
+  <script>
+    fetch('nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+      });
+  </script>
+  <main>
+    <section>
+      <h2>Our Services</h2>
+      <ul>
+        <li>Prescription Dispensing</li>
+        <li>Vaccinations</li>
+        <li>Medication Reviews</li>
+        <li>Health Advice</li>
+        <li>Over-the-counter Medicines</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Beaconsfield Pharmacy - Site by Kevin
+  </footer>
+</body>
+</html> 
