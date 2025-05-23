@@ -104,11 +104,9 @@ section {
 }
 
 section#construction ,section#welcome{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   flex-direction: column;
-  /* height: 400px; */
+
 }
 
 section#construction img {
