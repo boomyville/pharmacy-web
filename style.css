@@ -46,12 +46,15 @@ nav .container {
   }
   nav ul {
     gap: 0.1em;
+    flex-direction: column;
   }
   nav ul.active {
     display: flex;
   }
   nav a {
     padding: 0.1em;
+    width: 200px;
+    text-align: center;
   }
 }
 
@@ -70,6 +73,7 @@ nav ul {
 }
 
 nav a {
+  display: inline-block;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
